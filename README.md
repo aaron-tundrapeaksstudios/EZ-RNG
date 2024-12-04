@@ -41,7 +41,7 @@ Install from the .zip file
 
 ```
   1.) Download and un-zip the addons folder from this repo
-  2.) If your project doesn't yet have an addons folder, paste the addons folder as-is into the root of res://
+  2.) If your project doesn't yet have an addons folder, create one in the root of res://
     2.1.) res:// structure should be res://addons/ez_rng/$contents
     2.2.) If you already have an addons folder, just paste the ez_rng folder into it
   3.) Navigate to Project -> Project Settings -> Plugins and check the "On" box
