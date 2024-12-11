@@ -81,7 +81,7 @@ Install from the .zip file
 
   ## e.g. Generate 5 floats between 1.0 and 20.0, rounded to the hundredths-place:
 
-  var my_float_array: Array[float] = EZRNG.gen_float(10, 1.0, 20.0, 0.01)
+  var my_float_array: Array[float] = EZRNG.gen_float(5, 1.0, 20.0, 0.01)
 ```
 
 | Parameters | Type     | Description                |
