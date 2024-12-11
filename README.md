@@ -154,7 +154,7 @@ var d20_result: Array[int] = EZRNG.gen_int(2, 1, 20)
 var d100_result: int = EZRNG.gen_int(1, 1, 100)[0]
 
 ## Roll 2d100
-var d20_result: Array[int] = EZRNG.gen_int(2, 1, 100)
+var d100_result: Array[int] = EZRNG.gen_int(2, 1, 100)
 
 ## Sample advantage 1d20 roll
 var adv: int = EZRNG.gen_int(2, 1, 20).max()
