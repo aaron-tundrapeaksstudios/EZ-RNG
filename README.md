@@ -223,7 +223,7 @@ No, but with most RNG needs boiling down to needing X-number of generated values
 
 You can supply integers without incident.
 
-#### What if I only want integer results for gen_gaussian()?
+#### What if I only want integer results for gen_float() or gen_gaussian()?
 
 Set your Degrees of Freedom "dof" parameter to 1.
 
