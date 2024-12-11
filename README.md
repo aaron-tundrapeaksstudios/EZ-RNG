@@ -186,19 +186,19 @@ for result in weight_results:
 If you need to generate numbers with decimal values you can do so specifying degrees of freedom:
 ```gdscript
 ## Generate a random enemy's wallet with a loot table of $3.50 to $100.00
-var loot_wallet: float = EZRNG.gen_float(1, 3.5, 100.0, 0.01)
+var loot_wallet: float = EZRNG.gen_float(1, 3.5, 100.0, 0.01)[0]
 
 ## For even more precise decimal places, modify the Degrees of Freedom "dof"
-var hundred_thousandth_rng: float = EZRNG.gen_float(1, 0.0, 50.0, 0.00001)
+var hundred_thousandth_rng: float = EZRNG.gen_float(1, 0.0, 50.0, 0.00001)[0]
 
 ## To loot the enemy's wallet above to the nearest dollar, specify 1 for "dof"
-var rounded_loot_wallet: int = EZRNG.gen_float(1, 3.5, 100.0, 1)
+var rounded_loot_wallet: int = EZRNG.gen_float(1, 3.5, 100.0, 1)[0]
 
 ## Likewise for the nearest ten-dollars, specify 10 for "dof"
-var rounded_loot_wallet: int = EZRNG.gen_float(1, 3.5, 100.0, 10)
+var rounded_loot_wallet: int = EZRNG.gen_float(1, 3.5, 100.0, 10)[0]
 
 ## And likewise for the nearest ten-cents, specify 0.1 for "dof"
-var rounded_loot_wallet: int = EZRNG.gen_float(1, 3.5, 100.0, 0.1)
+var rounded_loot_wallet: float = EZRNG.gen_float(1, 3.5, 100.0, 0.1)[0]
 ```
 
 If you want to generate values based on a statistical model, supply the mean and standard deviation for Box-Muller generation:
