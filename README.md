@@ -36,21 +36,6 @@ Install from the Godot editor's AssetLib
     7.3.) EZRNG.gen_gaussian()
     7.4.) EZRNG.gen_weighted()
 ```
-
-Install from the .zip file
-
-```
-  1.) Download and un-zip the addons folder from this repo
-  2.) If your project doesn't yet have an addons folder, create one in the root of res://
-    2.1.) res:// structure should be res://addons/ez_rng/$contents
-    2.2.) If you already have an addons folder, just paste the ez_rng folder into it
-  3.) Navigate to Project -> Project Settings -> Plugins and check the "On" box
-  4.) Call the EZ RNG functions anywhere in the rest of your project's GDScript scripts via:
-    4.1.) EZRNG.gen_int()
-    4.2.) EZRNG.gen_float()
-    4.3.) EZRNG.gen_gaussian()
-    4.4.) EZRNG.gen_weighted()
-```
     
 ## Usage
 
